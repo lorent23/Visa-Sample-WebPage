@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+
+/*Sidebar*/
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.main__logo {
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: center;
+    padding: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar i {
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.sidebar a.active {
+    background-color: #C93D0D;
+    color: white;
+}
+
+.sidebar p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 15px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #92929D;
+
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #C93D0D;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    color: gray;
+}
+
+/*Navbar*/
+.navbar__top {
+    z-index: -3;
+    padding-left: 200px;
+    background: #FAFAFB;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.john__doe {
+    margin-top: 20px;
+    padding-left: 215px;
+    padding-bottom: 15px;
+    background: #FAFAFB;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.john__doe h3 {
+    font-size: 24px;
+}
+
+.john__doe span {
+    color: #C93D0D;
+}
+
+.navbar__main a {
+    padding-left: 15px;
+}
+
+.navbar__main i {
+    padding: 30px;
+    float: right;
+}
+
+.navbar__main h3 {
+    padding-right: 30px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.content h3 {
+    font-size: 16px;
+}
+
+.content .first__card .list-group {
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.Issuing__Visa p {
+    padding-top: 9px;
+}
+
+/*Cards Header Text*/
+.first__card {
+    color: #C93D0D;
+}
+
+.second__card h3 {
+    color: #C93D0D;
+}
+
+.third__card h3 {
+    color: #C93D0D;
+}
+
+.date__picker__commences {
+    color: #C93D0D;
+}
+
+.date__picker__expire {
+    color: #C93D0D;
+}
+/*Passport*/
+.passport__s {
+    margin-top: 23px;
+}
+.passport__s h3 {
+    color: #C93D0D;
+}
+.selections__passport {
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+.selections__passport p {
+    padding-top: 10px;
+}
+
+/*Submit Btn */
+.submit_btn {
+    width: 200px;
+    height: 50px;
+    background: #C93D0D;
+    border-radius: 5px;
+    border-color: white;
+    float: right;
+    color: white;
+}
+
+/* ==========================================================================
+   WYSIWYG
+   ========================================================================== */
+#editor {
+    resize: vertical;
+    overflow: auto;
+    line-height: 1.5;
+    background-color: #fafafa;
+    background-image: none;
+    border: 0;
+    border-bottom: 1px solid #3b8dbd;
+    min-height: 150px;
+    box-shadow: none;
+    padding: 8px 16px;
+    margin: 0 auto;
+    font-size: 14px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+#editor:focus {
+    background-color: #f0f0f0;
+    border-color: #38af5b;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+/* ==========================================================================
+     Buttons of text editor
+     ========================================================================== */
+#editor .btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: none;
+    border-bottom: 0.15em solid black;
+    padding: 0.65em 1.3em;
+}
+.btn-xs {
+    font-size: 0.80em;
+    padding: 0.25em 0.75em;
+}
+
+.btn-default {
+    border-color: #d9d9d9;
+    background-image: linear-gradient(#ffffff, #f2f2f2);
+}
+.btn-default:hover {
+    background: linear-gradient(#f2f2f2, #e6e6e6);
+}
+
+/*Responsive*/
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 819px) and (min-width: 380px) {
+    .sidebar {
+        height: 10px;
+    }
+    .navbar {
+        visibility: hidden;
+    }
+    .navbar i {
+        visibility: hidden;
+    }
+    .navbar__top {
+        height: 10px;
+    }
+    .second__card h3 {
+        padding-top: 30px;
+    }
+    .footer {
+        padding-top: 110%;
+    }
+    .third__card h3 {
+        padding-top: 30px;
+    }
+}

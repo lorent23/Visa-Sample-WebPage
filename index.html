@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <title>Visa Profile Page</title>
+    </head>
+    <body>
+        <!-- Here is the sidebar -->
+        <div class="sidebar">
+            <img class="main__logo" src="./images/logo.png">
+            <p>Member Dashboard</p>
+            <!-- Components / Links -->
+            <a class="active" href="#home">Home</a>
+            <a href="#member">
+                <i class="fa-solid fa-user"></i>Member Profile</a>
+            <a href="#favourite">
+                <i class=" active fa-solid fa-bookmark"></i>Favourite</a>
+            <a href="#visa-profile">
+                <i class="fa-regular fa-id-badge"></i>Visa Profile</a>
+            <a href="#member">
+                <i class="fa-solid fa-user"></i>Member Profile</a>
+            <a href="#favourite">
+                <i class=" active fa-solid fa-bookmark"></i>Favourite</a>
+            <a href="#visa-profile">
+                <i class="fa-regular fa-id-badge"></i>Visa Profile</a>
+            <a href="#member">
+                <i class="fa-solid fa-user"></i>Member Profile</a>
+            <a href="#favourite">
+                <i class=" active fa-solid fa-bookmark"></i>Favourite</a>
+            <a href="#visa-profile">
+                <i class="fa-regular fa-id-badge"></i>Visa Profile</a>
+            <a href="#member">
+                <i class="fa-solid fa-user"></i>Member Profile</a>
+            <a href="#favourite">
+                <i class=" active fa-solid fa-bookmark"></i>Favourite</a>
+            <a href="#visa-profile">
+                <i class="fa-regular fa-id-badge"></i>Visa Profile</a>
+            <a href="#member">
+                <i class="fa-solid fa-user"></i>Member Profile</a>
+            <a href="#favourite">
+                <i class=" active fa-solid fa-bookmark"></i>Favourite</a>
+            <a href="#visa-profile">
+                <i class="fa-regular fa-id-badge"></i>Visa Profile</a>
+        </div>
+
+        <section class="navbar__top">
+            <div class="navbar__main">
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-regular fa-envelope">Nomad Stays</i>
+                </nav>
+            </div>
+        </section>
+
+        <section class="john__doe">
+            <div>
+                <h3>Visa Profile:
+                    <span>John Doe</span></h3>
+            </div>
+        </section>
+
+        <!--Visa Form-->
+        <section class="visa__form">
+
+            <div class="content pt-3">
+                <div class="row col-lg-12">
+
+                    <!--First Card-->
+                    <div class="first__card col-lg-4 col-sm-12">
+                        <h3>Citizienship</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Cras justo odio
+                                <span class="badge badge-primary badge-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Dapibus ac facilisis in
+                                <span class="badge badge-primary badge-pill">2</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Morbi leo risus
+                                <span class="badge badge-primary badge-pill">1</span>
+                            </li>
+                        </ul>
+
+                        <!--Passport-->
+                        <div class="passport__s pt-3">
+                            <h3>Passport</h3>
+                            <div class="selections__passport">
+                                <p>Passport 1</p>
+                                <select class="form-control form-control-sm col-4">
+                                    <option>Australia</option>
+                                    <option>England</option>
+                                    <option>China</option>
+                                    <option>Ireland</option>
+                                </select>
+                                <p>Passport 2</p>
+                                <select class="form-control form-control-sm col-4">
+                                    <option>Australia</option>
+                                    <option>England</option>
+                                    <option>China</option>
+                                    <option>Ireland</option>
+                                </select>
+                                <p>Passport 3</p>
+                                <select class="form-control form-control-sm col-4">
+                                    <option>Australia</option>
+                                    <option>England</option>
+                                    <option>China</option>
+                                    <option>Ireland</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Form-->
+                    <div class="second__card col-lg-4 col-sm-12">
+                        <h3>VISAS & RESIDENCY PERMITS</h3>
+
+                        <!--Issuing Visa Field Left-->
+                        <div class="Issuing__Visa col-lg-8 col-sm-12">
+                            <p>Issuing Country</p>
+                            <select class="form-control form-control-sm">
+                                <option>Australia</option>
+                                <option>England</option>
+                                <option>China</option>
+                                <option>Ireland</option>
+                            </select>
+                            <!--Visa Common Name Field-->
+                            <p>Visa Common Name</p>
+                            <select class="form-control form-control-sm">
+                                <option>Australia visit visa</option>
+                                <option>England</option>
+                                <option>China</option>
+                                <option>Ireland</option>
+                            </select>
+                            <div class="date__picker__commences pt-3 pb-3">
+                                <p>Dates Commences:</p>
+                                <input type="date" id="visa__commences" name="visa__commences">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div id="editparent">
+                                <div id="editControls">
+                                    <div class="btn-group">
+                                        <a class="btn btn-xs btn-default" data-role="undo" href="#" title="Undo">
+                                            <i class="fa fa-undo"></i>
+                                        </a>
+                                        <a class="btn btn-xs btn-default" data-role="redo" href="#" title="Redo">
+                                            <i class="fa fa-repeat"></i>
+                                        </a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a class="btn btn-xs btn-default" data-role="bold" href="#" title="Bold">
+                                            <i class="fa fa-bold"></i>
+                                        </a>
+                                        <a class="btn btn-xs btn-default" data-role="italic" href="#" title="Italic">
+                                            <i class="fa fa-italic"></i>
+                                        </a>
+                                        <a
+                                            class="btn btn-xs btn-default"
+                                            data-role="underline"
+                                            href="#"
+                                            title="Underline">
+                                            <i class="fa fa-underline"></i>
+                                        </a>
+                                        <a
+                                            class="btn btn-xs btn-default"
+                                            data-role="strikeThrough"
+                                            href="#"
+                                            title="Strikethrough">
+                                            <i class="fa fa-strikethrough"></i>
+                                        </a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a
+                                            class="btn btn-xs btn-default"
+                                            data-role="indent"
+                                            href="#"
+                                            title="Blockquote">
+                                            <i class="fa fa-indent"></i>
+                                        </a>
+                                        <a
+                                            class="btn btn-xs btn-default"
+                                            data-role="insertUnorderedList"
+                                            href="#"
+                                            title="Unordered List">
+                                            <i class="fa fa-list-ul"></i>
+                                        </a>
+                                        <a
+                                            class="btn btn-xs btn-default"
+                                            data-role="insertOrderedList"
+                                            href="#"
+                                            title="Ordered List">
+                                            <i class="fa fa-list-ol"></i>
+                                        </a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a class="btn btn-xs btn-default" data-role="h1" href="#" title="Heading 1">
+                                            <i class="fa fa-header"></i>
+                                            <sup>1</sup>
+                                        </a>
+                                        <a class="btn btn-xs btn-default" data-role="h2" href="#" title="Heading 2">
+                                            <i class="fa fa-header"></i>
+                                            <sup>2</sup>
+                                        </a>
+                                        <a class="btn btn-xs btn-default" data-role="h3" href="#" title="Heading 3">
+                                            <i class="fa fa-header"></i>
+                                            <sup>3</sup>
+                                        </a>
+                                        <a class="btn btn-xs btn-default" data-role="p" href="#" title="Paragraph">
+                                            <i class="fa fa-paragraph"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="editor" contenteditable="contenteditable"></div>
+                                <textarea
+                                    name="ticketDesc"
+                                    id="editorCopy"
+                                    required="required"
+                                    style="display:none;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="third__card col-lg-4 col-sm-12">
+                        <h3>VISAS & RESIDENCY PERMITS</h3>
+                        <!--Issuing Visa Field Left-->
+                        <div class="Issuing__Visa col-8">
+                            <p>Issuing Country</p>
+                            <select class="form-control form-control-sm">
+                                <option>Australia</option>
+                                <option>England</option>
+                                <option>China</option>
+                                <option>Ireland</option>
+                            </select>
+                            <!--Visa Common Name Field-->
+                            <p>Visa Common Name</p>
+                            <select class="form-control form-control-sm">
+                                <option>Australia visit visa</option>
+                                <option>England</option>
+                                <option>China</option>
+                                <option>Ireland</option>
+                            </select>
+                            <div class="date__picker__expire pt-3 pb-3">
+                                <p>Dates Expires:</p>
+                                <input type="date" id="visa__expires" name="visa__expires">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit__btn">
+                        <button type="button" class="submit_btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="text-center">Copyright Nomadstays</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f1e19b3257.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
